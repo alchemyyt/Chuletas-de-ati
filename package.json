@@ -1,0 +1,24 @@
+{
+  "name": "chuletasdeati",
+  "version": "1.0.0",
+  "description": "web development and english notes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemyyt/Chuletas-de-ati.git"
+  },
+  "keywords": [
+    "web",
+    "english",
+    "notes"
+  ],
+  "author": "ati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alchemyyt/Chuletas-de-ati/issues"
+  },
+  "homepage": "https://github.com/alchemyyt/Chuletas-de-ati#readme"
+}
