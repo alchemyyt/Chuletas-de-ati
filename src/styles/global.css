@@ -1,0 +1,21 @@
+:root{
+  --bgDark:#2056B3  ;
+  --bgMedium:#488BFF ;
+  --bgLight:#619BFF  ; 
+  --contrastColor:#FFCA5C ;
+  --contrastColorDark:#B37E0E ;
+  --h1:5rem;
+  --h2:2.5rem;
+  --h3:2rem;
+  --fontMedium:1.3rem;
+  --fontSmall:1rem;
+  --marginLarge:1rem;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
