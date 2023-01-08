@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
 :root{
   --bgDark:#2056B3  ;
   --bgMedium:#488BFF ;
   --bgLight:#619BFF  ; 
   --contrastColor:#FFCA5C ;
   --contrastColorDark:#B37E0E ;
-  --h1:5rem;
-  --h2:2.5rem;
+  --text:rgb(208, 211, 241);
+  --h1:2.5rem;
+  --h2:2rem;
   --h3:2rem;
   --fontMedium:1.3rem;
   --fontSmall:1rem;
@@ -15,7 +17,71 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Fuzzy Bubbles';
 }
 html{
   font-size: 62.5%;
+  background-color: var(--bgDark);
+  color: var(--text);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bgMedium);
+  padding: var(--marginLarge);
+}
+.navBar i{
+  position: absolute;
+  left: 1rem;
+  font-size: 1.6rem;
+}
+.navBar h1{
+  font-size: var(--h1);
+}
+.intro{
+  margin-top: var(--marginLarge);
+  text-align: center;
+  background-color: var(--bgMedium);
+  font-size: var(--fontMedium);
+  padding: var(--marginLarge);
+}
+.intro h2{
+  display: inline-block;
+  text-align: center;
+  font-size: var(--h2);
+}
+.index{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  margin-top: var(--marginLarge);
+  padding: var(--marginLarge);
+  background-color: var(--bgMedium);
+}
+.index h2{
+  text-align: center;
+  grid-column-start:1 ;
+  grid-column-end: 4;
+}
+.index section{
+  text-align: center;
+}
+.index section ol{
+  list-style: none;
+}
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  background-color: var(--bgMedium);
 }
