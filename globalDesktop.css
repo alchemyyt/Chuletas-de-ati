@@ -41,12 +41,12 @@ main{
   padding: var(--marginLarge);
   border: var(--bgLight) 4px solid;
 }
-.navBar .icons{
+.navBar .navRight{
   display: flex;
   gap: 1rem;
   font-size: var(--h1);
 }
-.navBar .icons i{
+.navBar .navRight i{
   display: grid;
   place-items: center;
   width: 4rem;
@@ -57,6 +57,10 @@ main{
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+}
+.socialMediaCtn{
+  display: flex;
+  gap: 1rem;
 }
 .navBar h1{
   font-size: var(--h1);
@@ -128,7 +132,7 @@ a{
 a:hover{
   color: var(--contrastColor);
 }
-.navBar .icons i:hover{
+.navBar .navRight a i:hover{
   border: var(--contrastColor)solid;
 }
 .index li:hover{
@@ -138,4 +142,90 @@ a:hover{
   -moz-transition: .3s;
   -ms-transition: .3s;
   -o-transition: .3s;
+}
+#searchCtn{
+  border-radius: 10rem;
+  position: relative;
+  display: flex;
+  border: solid 4px var(--bgLight);
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+#searchCtn input{
+  padding: 0 5rem 0 var(--marginLarge );
+  border-style: hidden;
+  border-radius: 10rem;
+  width: 100%;
+  font-size: var(--fontMedium);
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+#searchCtn input:focus{
+  outline: none;
+}
+#searchIcon{
+  border-radius:0 10rem 10rem 0;
+  position: absolute;
+  right: 0px;
+  border-radius: 0%;
+  -webkit-border-radius:0 10rem 10rem 0;
+  -moz-border-radius:0 10rem 10rem 0;
+  -ms-border-radius:0 10rem 10rem 0;
+  -o-border-radius:0 10rem 10rem 0;
+  border: none;
+  height: 100%;
+  background-color: var(--bgLight);
+}
+#menuCtn{
+  display: flex;
+}
+#menuCtn:hover>span{
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+  color: var(--contrastColor);
+  border-bottom:solid 2px ;
+}
+#menuCtn span{
+  cursor: pointer;
+
+  display: grid;
+  place-items: center;
+}
+#menuArrow{
+  width: 100%;
+  margin-left: .2rem;
+  font-size: 1.2rem;
+  border: none;
+}
+#menu{
+  margin-top: 5rem;
+  position: absolute;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+#menu ol {
+  list-style: none;
+}
+.inactive{
+  display: none;
+}
+#menu i{
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  right: .5rem;
+  top: .5rem;
+  width: 2rem;
+  height: 2rem;
+}
+#menuMobile{
+  display: none;
 }
