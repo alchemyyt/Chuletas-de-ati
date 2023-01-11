@@ -229,3 +229,6 @@ a:hover{
 #menuMobile{
   display: none;
 }
+#closeMenuMobile{
+  display:none;
+}
