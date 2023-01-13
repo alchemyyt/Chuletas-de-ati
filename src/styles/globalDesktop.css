@@ -25,6 +25,10 @@ html{
   color: var(--text);
   height: 100%;
   max-width: 100%;
+  border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;

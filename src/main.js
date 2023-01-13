@@ -1,3 +1,8 @@
+if (window.innerWidth >= 900) {
+  import('@styles/globalDesktop.css');
+}else{
+  import('@styles/global.css')
+}
 //components
 const navbar = `
 <div class="navRight">
