@@ -68,8 +68,8 @@ writeComponent(footer,footerContent)
 
 //menus templates
 const webMenuTemplat = `<ol>
-<a href="pages/html.html"><li>html</li></a>
-<li>css</li>
+<a href="/pages/html.html"><li>html</li></a>
+<a href="/pages/css.html"><li>css</li></a>
 <li>javascript</li>
 <li>node</li>
 <li>prueba</li>

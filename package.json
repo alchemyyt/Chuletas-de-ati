@@ -2,7 +2,7 @@
   "name": "chuletasdeati",
   "version": "1.0.0",
   "description": "web development and english notes",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "webpack serve --config webpack.config.dev.js",
     "build": "webpack --mode production --config webpack.config.js"
